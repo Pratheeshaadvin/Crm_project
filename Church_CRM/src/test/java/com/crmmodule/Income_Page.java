@@ -38,5 +38,45 @@ public class Income_Page {
 	public static WebElement amount_Slider_Income;
 	@FindBy(xpath = "//button[@class='filterapplyBtn btn btn-sm btn-primary']")
 	public static WebElement apply_Filter_Income;
+	@FindBy(xpath = "//button[text()='clear']")
+	public static WebElement clear_filter_Income;
+	
+	
+	//add income
+	@FindBy(xpath = "//a[@id='role']")
+	public static WebElement click_Add_Btn_Income;
+	@FindBy(xpath = "//input[@type='date']")
+	public static WebElement add_Income_Date;
+	@FindBy(xpath = "(//select[@id='exampleFormControlSelect1'])[1]")
+	public static WebElement select_category_Add_Income;
+	@FindBy(xpath = "(//select[@id='exampleFormControlSelect1'])[2]")
+	public static WebElement select_Asset_Add_Income;
+	@FindBy(xpath = "(//select[@id='exampleFormControlSelect1'])[3]")
+	public static WebElement select_Account_Add_Income;
+	@FindBy(xpath = "(//select[@id='exampleFormControlSelect1'])[4]")
+	public static WebElement select_Events_Add_Income;
+	@FindBy(xpath = "(//select[@id='exampleFormControlSelect1'])[5]")
+	public static WebElement select_PaisStatus_Add_Income;
+	@FindBy(xpath = "//input[@type='tel']")
+	public static WebElement amount_Add_Income;
+	@FindBy(xpath = "//input[@type='text']")
+	public static WebElement remark_Add_Income;
+	@FindBy(xpath = "//button[text()='Save']")
+	public static WebElement save_Add_Income;
+	@FindBy(xpath = "//div[@class='text-center pagination-row']//div//ul/li")
+	public static List<WebElement> pagination_Income;
+	@FindBy(xpath = "//*[@id='data-link']/ul/li[7]")
+	public static WebElement pagination_Next_Income;
+	@FindBy(xpath = "(//i[@class=' fas fa-trash-alt icon'])[9]")
+	public static WebElement delete_List_Income;
+	@FindBy(xpath = "//button[text()='Yes']")
+	public static WebElement Yes;
+	
+	//excel
+	@FindBy(xpath = "(//a[@id='export-pdf'])[2]")
+	public static WebElement exel_Income;
+	@FindBy(xpath = "//*[@id='export-pdf']/i")
+	public static WebElement pdf_Income;
+	
 	
 }

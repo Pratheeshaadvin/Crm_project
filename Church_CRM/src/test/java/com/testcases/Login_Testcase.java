@@ -13,6 +13,7 @@ public class Login_Testcase extends CrmMain {
 		Login_Credentials.email.sendKeys("admin@gmail.com");
 		Login_Credentials.password.sendKeys("pass@admin");
 		Login_Credentials.submit.click();
+
 }
 	@Test(priority = 1)
 	public void verify_Login() {

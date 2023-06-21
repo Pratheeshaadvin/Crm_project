@@ -2,26 +2,26 @@
 <testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-14T22:01:17 IST" name="Suite" finished-at="2023-06-14T22:01:24 IST" duration-ms="7270">
+  <suite started-at="2023-06-21T17:51:12 IST" name="Suite" finished-at="2023-06-21T17:51:16 IST" duration-ms="3627">
     <groups>
     </groups>
-    <test started-at="2023-06-14T22:01:17 IST" name="Test" finished-at="2023-06-14T22:01:24 IST" duration-ms="7270">
-      <class name="com.testcases.Income_TestCase">
-        <test-method signature="income_full_page()[pri:2, instance:com.testcases.Income_TestCase@33bc72d1]" started-at="2023-06-14T22:01:20 IST" name="income_full_page" finished-at="2023-06-14T22:01:24 IST" duration-ms="4400" status="PASS">
+    <test started-at="2023-06-21T17:51:12 IST" name="Test" finished-at="2023-06-21T17:51:16 IST" duration-ms="3627">
+      <class name="com.testcases.Logout_TestCase">
+        <test-method signature="logout_Click()[pri:0, instance:com.testcases.Logout_TestCase@353352b6]" started-at="2023-06-21T17:51:15 IST" name="logout_Click" finished-at="2023-06-21T17:51:16 IST" duration-ms="804" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- income_full_page -->
-      </class> <!-- com.testcases.Income_TestCase -->
+        </test-method> <!-- logout_Click -->
+      </class> <!-- com.testcases.Logout_TestCase -->
       <class name="com.testcases.Login_Testcase">
-        <test-method is-config="true" signature="browser()[pri:0, instance:com.testcases.Login_Testcase@5e2c3d18]" started-at="2023-06-14T22:01:11 IST" name="browser" finished-at="2023-06-14T22:01:17 IST" duration-ms="6258" status="PASS">
+        <test-method is-config="true" signature="browser()[pri:0, instance:com.testcases.Login_Testcase@6caf0677]" started-at="2023-06-21T17:51:07 IST" name="browser" finished-at="2023-06-21T17:51:12 IST" duration-ms="5306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser -->
-        <test-method is-config="true" signature="browser_Quit()[pri:0, instance:com.testcases.Login_Testcase@5e2c3d18]" started-at="2023-06-14T22:01:17 IST" name="browser_Quit" finished-at="2023-06-14T22:01:17 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="browser_Quit()[pri:0, instance:com.testcases.Login_Testcase@6caf0677]" started-at="2023-06-21T17:51:12 IST" name="browser_Quit" finished-at="2023-06-21T17:51:12 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browser_Quit -->
-        <test-method signature="verify_Login()[pri:1, instance:com.testcases.Login_Testcase@5e2c3d18]" started-at="2023-06-14T22:01:17 IST" name="verify_Login" finished-at="2023-06-14T22:01:20 IST" duration-ms="2827" status="PASS">
+        <test-method signature="verify_Login()[pri:1, instance:com.testcases.Login_Testcase@6caf0677]" started-at="2023-06-21T17:51:12 IST" name="verify_Login" finished-at="2023-06-21T17:51:15 IST" duration-ms="2783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_Login -->

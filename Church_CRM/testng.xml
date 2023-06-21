@@ -7,8 +7,20 @@
       <class name="com.testcases.Login_Testcase"/>
       <!-- <class name="com.testcases.UserTestcase"/> 
       <class name="com.testcases.UserListTestCase"/> 
-      <class name="com.testcases.User_Search_Filter_Testcase"></class> -->
-      <class name="com.testcases.Income_TestCase"></class>
+      <class name="com.testcases.User_Search_Filter_Testcase"></class> 
+      <class name="com.testcases.Income_TestCase"></class> 
+      <class name="com.testcases.Expense_TestCase"></class> 
+      <class name="com.testcases.Events_TestCase"></class> 
+      <class name="com.testcases.Member_Testcase"></class>
+      
+      <class name="com.testcases.Certificate_TestCase"></class> 
+      <class name="com.testcases.Asset_TestCase"></class> 
+      <class name="com.testcases.Donation_TestCase"></class> 
+      <class name="com.testcases.Registration_TestCase"></class>
+      <class name="com.testcases.Account_TestCase"></class> -->
+      <class name="com.testcases.Logout_TestCase"></class>
+      
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
