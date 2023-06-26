@@ -75,7 +75,7 @@ public class Member_Testcase extends CrmMain{
 	
 	
 	
-	@Test
+	@Test(priority = 8)
 	public void memeber() throws InterruptedException {
 		member_Eye_EDit_Member();
 		add_members();

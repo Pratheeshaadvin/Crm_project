@@ -47,7 +47,7 @@ public class Events_TestCase extends CrmMain {
 		Member_Page.add_Family_member.click();
 	}
 	
-	@Test
+	@Test(priority = 7)
 	public void events() {
 		events_Full_Pages();
 		//new_Event();

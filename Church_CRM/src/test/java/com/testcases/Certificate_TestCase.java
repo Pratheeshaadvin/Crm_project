@@ -37,7 +37,7 @@ public class Certificate_TestCase extends CrmMain{
 	public void death() {
 		
 	}
-	@Test
+	@Test(priority = 9)
 	public void certificate_FullPage() throws InterruptedException {
 		baptism();
 		marriage();

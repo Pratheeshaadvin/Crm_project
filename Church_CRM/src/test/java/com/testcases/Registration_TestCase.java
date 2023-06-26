@@ -45,7 +45,7 @@ public class Registration_TestCase extends CrmMain {
 		Registration_Page.registration_Fee.sendKeys("500");
 		((JavascriptExecutor) driver).executeScript("arguments[0].click();", Registration_Page.save_Register);
 	}
-	@Test
+	@Test(priority = 12)
 	public void registration_FullPage() throws InterruptedException {
 		registration();
 		registration_Death();

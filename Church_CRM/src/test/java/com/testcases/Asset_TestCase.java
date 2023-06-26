@@ -29,7 +29,7 @@ public class Asset_TestCase extends CrmMain{
 		Asset_Page.description.sendKeys("Sit harum culpa ducimus ex illum quia in adipisc");
 		Asset_Page.save_Asset.click();
 	}
-	@Test
+	@Test(priority = 10)
 	public void asset_FullPage() throws InterruptedException {
 		asset();
 	}

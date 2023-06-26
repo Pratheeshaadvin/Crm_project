@@ -119,7 +119,7 @@ public class Income_TestCase extends CrmMain {
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(Income_Page.pdf_Income)); 
 		((JavascriptExecutor)driver).executeScript("arguments[0].click();", element);
 	}
-	@Test(priority = 2)
+	@Test(priority = 5)
 	public void income_full_page() throws InterruptedException   {
 		Income_data_Filter();
 //		select_all_Filters();

@@ -49,7 +49,7 @@ public class Donation_TestCase extends CrmMain {
 		selection(2, Donation_page.page_Count_Donation_Click);
 	}
 	
-	@Test
+	@Test(priority = 11)
 	public void donation_FullPage() throws InterruptedException {
 		donation();
 		page_Count_Donation();

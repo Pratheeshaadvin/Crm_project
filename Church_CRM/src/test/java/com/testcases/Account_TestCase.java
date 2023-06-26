@@ -33,7 +33,7 @@ public class Account_TestCase extends CrmMain{
 		Account_Page.inactive_Accont.click();
 		
 	}
-	@Test
+	@Test(priority = 13)
 	public void account_FullPage() throws InterruptedException {
 		account();
 	}
